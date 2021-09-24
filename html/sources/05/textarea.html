@@ -31,15 +31,14 @@
           <li>
             <label for="d-day">배송 지정</label>
             <input type="date" id="d-day"> <small>(주문일로부터 최소 3일 이후)</small>
-          </li>     
+          </li>
           <li>
             <label for="memo">메모</label>
-            <textarea id="memo" cols="40" rows="4">test</textarea>
+            <textarea id="memo" cols="40" rows="4" ></textarea>
 
             <pre id="memo2"></pre>
 
             <input type="button" id="button_memo" value="글전달">
-
           </li>   
         </ul>  
       </fieldset>
@@ -51,12 +50,13 @@
   </div>
   <script>
     const memo = document.querySelector('#memo');
-    const memo2 = document.querySelector('#_memo2');
+    const memo2 = document.querySelector('#memo2');
     const button_memo = document.querySelector('#button_memo');
 
     button_memo.onclick = () => {
-      _memo2.value = memo.value;
+      memo2.textContent = memo.value;
     }
+
 
   </script>
 </body>
