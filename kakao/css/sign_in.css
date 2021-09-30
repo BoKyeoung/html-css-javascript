@@ -1,0 +1,91 @@
+.container{
+    width: 100%;
+}
+#con_wrap{
+    width: 1000px;
+    margin: 100px auto;
+    display: flex;
+}
+.con{
+    width: 500px;
+}
+#left_con{
+    padding-top: 50px;
+}
+.left_con_wrap{
+    width: 450px;
+    margin: 0 auto;
+}
+.text_wrap{
+    width: auto; height: auto;
+    margin-top: 50px;
+}
+.text_b{
+    font-size: 24px;
+    font-weight: 500;
+}
+.text_s{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.img_wrap{
+    margin-top: 50px;
+    width: 450px;
+}
+.con_img{
+    width: 450px;
+    height: auto;
+}
+#right_con{
+}
+.con_box{
+    width: 400px;
+    height: 480px;
+    border: 1px solid #ccc;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+.content_wrap{
+
+}
+.text_top{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.sign_wrap{
+    width: 300px;
+    height: auto;
+}
+.sign_box_input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ccc ;
+}
+#password{
+    margin-top: 5px;
+}
+.cheakbox_wrap{
+    display: flex;
+    width: 300px;
+    margin-top: 20px;
+}
+.cheakbox_wrap p{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.login_btn_wrap{
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+    background-color: blueviolet;
+}
+.btn{
+    width: 300px;
+    height: 45px;
+    border: none;
+}
