@@ -23,7 +23,10 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+a{
 	display: block;
 }
 body {
@@ -31,4 +34,31 @@ body {
 }
 ol, ul {
 	list-style: none;
+}
+.container{
+    width: 100%;
+}
+#footer_wrap{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+#footer_in{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.footer_in{
+    text-align: center;
+    margin-left: 20px;
+}
+.footer_in a{
+    color: black;
+}
+.B{
+    font-weight: bold;
+}
+#copy{
+    font-size: 12px;
 }
