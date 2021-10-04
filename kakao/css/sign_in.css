@@ -1,5 +1,6 @@
 
 #con_wrap{
+    font-family: 'Noto Sans KR', sans-serif;
     width: 1000px;
     margin: 100px auto;
     display: flex;
@@ -35,8 +36,7 @@
     width: 450px;
     height: auto;
 }
-#right_con{
-}
+
 .con_box{
     width: 400px;
     height: 480px;
@@ -59,6 +59,7 @@
     height: 40px;
     border: none;
     border-bottom: 1px solid #ccc ;
+    font-size: 16px;
 }
 #password{
     margin-top: 5px;
@@ -119,8 +120,11 @@
     color:black;
 }
 
-#log_right a:last-child{
-    margin-left: 15px;
+#log_right{
+ display: flex;
+}
+#log_right a:first-child{
+    margin-right: 10px;
 }
 
 

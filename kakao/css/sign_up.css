@@ -59,6 +59,7 @@
     background-color: #eee;
     text-align: center;
     line-height: 60px;
+    box-sizing: border-box;
 }
 .next_btn:hover{
     background-color: #ccc;
@@ -66,11 +67,21 @@
 .next_btn > a{
     color: black;
 }
-/*이메일 , 기본 끝*/
+/*기본 끝*/
+#pwd_box{
+    height: 380px;
+}
 .password{
+    height: 50px;
     margin-bottom: 10px;
 }
-/* 구조 상 감싸고 있는게 input_wrap 아닌가...?*/
+#pwd_input_wrap{
+    height: 110px;
+    margin-bottom: 50px;
+}
+#pwd_next_btn{
+    margin-top: 50px;
+}
 
 #footer_wrap{
     border: none;
